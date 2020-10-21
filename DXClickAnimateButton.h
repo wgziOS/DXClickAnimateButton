@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DXClickAnimateButton.h"
 typedef void(^ClickBlock)(void);
 
 
