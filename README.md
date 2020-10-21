@@ -4,3 +4,16 @@
 ```objc
 pod 'DXClickAnimateBtnPod'
 ```
+####使用方法
+```objc
+-(DXClickAnimateButton *)nextBtn {
+    if (!_nextBtn) {
+        WS(weakSelf)
+        _nextBtn = [DXClickAnimateButton touchUpOutsideCancelButtonWithType:UIButtonTypeSystem frame:CGRectMake(0, 0, 136, 76) title:@"确定" titleColor:[UIColor whiteColor] backgroundColor:nil backgroundImage:@"auth_redBtn" andBlock:^{
+            [weakSelf requestInsideLogin];
+        }];
+    }
+    return _nextBtn;
+}
+
+```
