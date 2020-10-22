@@ -17,3 +17,6 @@ pod 'DXClickAnimateBtnPod'
 }
 
 ```
+####效果
+![image](https://github.com/wgziOS/DXClickAnimateButton/blob/main/buttonExp.gif)
+
