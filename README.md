@@ -4,7 +4,7 @@
 ```objc
 pod 'DXClickAnimateBtnPod'
 ```
-####使用方法
+#### 使用方法
 ```objc
 -(DXClickAnimateButton *)nextBtn {
     if (!_nextBtn) {
@@ -17,6 +17,6 @@ pod 'DXClickAnimateBtnPod'
 }
 
 ```
-####效果
+#### 效果
 ![image](https://github.com/wgziOS/DXClickAnimateButton/blob/main/buttonExp.gif)
 
